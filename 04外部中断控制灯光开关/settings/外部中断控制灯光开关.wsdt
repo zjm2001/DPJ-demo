@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>&#x5916;&#x90e8;&#x4e2D;&#x65AD;&#x63A7;&#x5236;&#x706F;&#x5149;&#x5F00;&#x5173;/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>194</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1023</ColumnWidth1><ColumnWidth2>273</ColumnWidth2><ColumnWidth3>68</ColumnWidth3></Build>
+    </Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-1070-10859</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>&#x5916;&#x90e8;&#x4e2D;&#x65AD;&#x63A7;&#x5236;&#x706F;&#x5149;&#x5F00;&#x5173;</ExpandedNode><ExpandedNode>&#x5916;&#x90e8;&#x4e2D;&#x65AD;&#x63A7;&#x5236;&#x706F;&#x5149;&#x5F00;&#x5173;/Output</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-20538-11313</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\&#x5916;&#x90e8;&#x4e2D;&#x65AD;&#x63A7;&#x5236;&#x706F;&#x5149;&#x5F00;&#x5173;.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>722</SelEnd></Tab><ActiveTab>0</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00c71c88><key>iaridepm.enu1</key></Toolbar-00c71c88></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>669</Bottom><Right>268</Right><x>-2</x><y>-2</y><xscreen>270</xscreen><yscreen>285</yscreen><sizeHorzCX>140625</sizeHorzCX><sizeHorzCY>285858</sizeHorzCY><sizeVertCX>140625</sizeVertCX><sizeVertCY>673019</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>283</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>285</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>285858</sizeHorzCY><sizeVertCX>140625</sizeVertCX><sizeVertCY>285858</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
