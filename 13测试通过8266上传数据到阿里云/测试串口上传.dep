@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2591315266</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+      <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_CC2530F256_banked.xcl</file>
+      <file>$PROJ_DIR$\&#x6D4B;&#x8BD5;&#x4e0A;&#x4F20;.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\&#x6D4B;&#x8BD5;&#x4e32;&#x53e3;&#x4e0A;&#x4F20;.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\&#x6D4B;&#x8BD5;&#x4e0A;&#x4F20;.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\&#x6D4B;&#x8BD5;&#x4e32;&#x53e3;&#x4e0A;&#x4F20;.d51</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-blxd-1e16x01.r51</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\&#x6D4B;&#x8BD5;&#x4e0A;&#x4F20;.r51</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\&#x6D4B;&#x8BD5;&#x4e0A;&#x4F20;.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 6 7 9</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 0 6 7 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\&#x6D4B;&#x8BD5;&#x4e32;&#x53e3;&#x4e0A;&#x4F20;.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 4</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\&#x6D4B;&#x8BD5;&#x4e32;&#x53e3;&#x4e0A;&#x4F20;.d51</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 1 10 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

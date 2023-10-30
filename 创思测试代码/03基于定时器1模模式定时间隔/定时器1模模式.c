@@ -29,7 +29,6 @@ void Init_Timer1(){
 __interrupt void Timer1_Sevice(){
     //清除定时器1通道0中断标志(可写可不写会自动清除)
     //T1STAT &= ~0x01;
-  
     count++;
     if(count == 10){
       //一秒钟
