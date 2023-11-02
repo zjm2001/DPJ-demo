@@ -18,9 +18,10 @@ ActionState=1
 Enabled=0
 ShowSource=1
 [DebugChecksum]
-Checksum=1699555090
+Checksum=-2130422336
 [DisAssemblyWindow]
-NumStates=_ 0
+NumStates=_ 1
+State 1=_ 1
 [InstructionProfiling]
 Enabled=_ 0
 [CodeCoverage]
@@ -39,7 +40,7 @@ ByteLimit=50
 Bp0=_ "STD_CODE" "{$PROJ_DIR$\²âÁ¿ÎÂÊª¶È.c}.63.3@1" 1 0 0 0 "" 0 ""
 Count=1
 [ChipconEmu]
-Stop timers on halt=0
+Stop timers on halt=1
 Leave target running=1
 [Log file]
 LoggingEnabled=_ 0

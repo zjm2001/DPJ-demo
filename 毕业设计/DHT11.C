@@ -3,7 +3,7 @@
 typedef unsigned char uchar;
 typedef unsigned int  uint;
 
-#define DATA_PIN P1_7
+#define DATA_PIN P1_1
 
 //温湿度定义
 uchar ucharFLAG,uchartemp;
@@ -81,7 +81,7 @@ void DHT11(void)   //温湿传感启动
     DATA_PIN=0;
     Delay_ms(19);  //>18MS
     DATA_PIN=1; 
-    P1DIR &= ~0x80; //重新配置IO口方向
+    P1DIR &= ~0x02; //重新配置IO口方向
     Delay_10us();
     Delay_10us();                        
     Delay_10us();
@@ -127,5 +127,5 @@ void DHT11(void)   //温湿传感启动
         shidu_ge=0;  
     } 
     
-    P1DIR |= 0x80; //IO口需要重新配置 
+    P1DIR |= 0x02; //IO口需要重新配置 
 }

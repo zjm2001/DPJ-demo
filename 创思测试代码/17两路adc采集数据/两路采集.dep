@@ -6,47 +6,33 @@
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$PROJ_DIR$\Debug\Obj\Untitled1.r51</file>
-      <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
-      <file>$PROJ_DIR$\Untitled1.c</file>
-      <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
-      <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\&#x4e24;&#x8DeF;&#x91C7;&#x96C6;.pbd</file>
-      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-blxd-1e16x01.r51</file>
-      <file>$PROJ_DIR$\Debug\Obj\Untitled1.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
-      <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_CC2530F256_banked.xcl</file>
       <file>$PROJ_DIR$\Debug\Exe\&#x4e24;&#x8DeF;&#x91C7;&#x96C6;.d51</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-blxd-1e16x01.r51</file>
+      <file>$PROJ_DIR$\Debug\Obj\&#x4e24;&#x8DeF;&#x91C7;&#x96C6;.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+      <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_CC2530F256_banked.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\Untitled1.r51</file>
+      <file>$PROJ_DIR$\Untitled1.c</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Untitled1.pbi</file>
     </outputs>
     <file>
       <name>[ROOT_NODE]</name>
       <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 10</file>
+          <file> 0</file>
         </tool>
       </outputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\Untitled1.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 7</file>
-        </tool>
-        <tool>
-          <name>ICC8051</name>
-          <file> 0</file>
-        </tool>
-      </outputs>
+      <name>$PROJ_DIR$\Debug\Exe\&#x4e24;&#x8DeF;&#x91C7;&#x96C6;.d51</name>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 4 3 1 8</file>
-        </tool>
-        <tool>
-          <name>ICC8051</name>
-          <file> 4 3 1 8</file>
+          <name>XLINK</name>
+          <file> 4 5 1</file>
         </tool>
       </inputs>
     </file>
@@ -55,16 +41,30 @@
       <inputs>
         <tool>
           <name>BILINK</name>
-          <file> 7</file>
+          <file> 10</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\Debug\Exe\&#x4e24;&#x8DeF;&#x91C7;&#x96C6;.d51</name>
+      <name>$PROJ_DIR$\Untitled1.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
       <inputs>
         <tool>
-          <name>XLINK</name>
-          <file> 9 0 6</file>
+          <name>BICOMP</name>
+          <file> 8 3 7 9</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 8 3 7 9</file>
         </tool>
       </inputs>
     </file>

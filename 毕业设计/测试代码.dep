@@ -2,41 +2,67 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>4182731988</fileChecksum>
+  <fileChecksum>3054964266</fileChecksum>
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$PROJ_DIR$\Debug\Obj\&#x6D4B;&#x91CF;&#x6e29;&#x6e7F;&#x5eA6;.r51</file>
-      <file>$PROJ_DIR$\Debug\Exe\&#x6e29;&#x6e7F;&#x5eA6;&#x6D4B;&#x91CF;.d51</file>
-      <file>$PROJ_DIR$\Debug\Obj\DHT11.r51</file>
-      <file>$PROJ_DIR$\Debug\Obj\&#x6D4B;&#x91CF;&#x6e29;&#x6e7F;&#x5eA6;.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\&#x6e29;&#x6e7F;&#x5eA6;&#x6D4B;&#x91CF;.pbd</file>
-      <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_CC2530F256_banked.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\&#x6D4B;&#x8BD5;&#x4ee3;&#x7801;.pbd</file>
       <file>$PROJ_DIR$\DHT11.H</file>
-      <file>$PROJ_DIR$\DHT11.C</file>
-      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
-      <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
-      <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Untitled1.pbi</file>
       <file>$TOOLKIT_DIR$\lib\clib\cl-pli-blxd-1e16x01.r51</file>
-      <file>$PROJ_DIR$\&#x6D4B;&#x91CF;&#x6e29;&#x6e7F;&#x5eA6;.c</file>
-      <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+      <file>$PROJ_DIR$\LCD.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$PROJ_DIR$\codetab.h</file>
+      <file>$PROJ_DIR$\Untitled1.c</file>
       <file>$PROJ_DIR$\Debug\Obj\DHT11.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\DHT11.r51</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\&#x6D4B;&#x8BD5;&#x4ee3;&#x7801;.d51</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+      <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_CC2530F256_banked.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+      <file>$PROJ_DIR$\DHT11.C</file>
+      <file>$PROJ_DIR$\Debug\Obj\Untitled1.r51</file>
     </outputs>
     <file>
-      <name>$PROJ_DIR$\Debug\Exe\&#x6e29;&#x6e7F;&#x5eA6;&#x6D4B;&#x91CF;.d51</name>
+      <name>$PROJ_DIR$\Debug\Obj\&#x6D4B;&#x8BD5;&#x4ee3;&#x7801;.pbd</name>
       <inputs>
         <tool>
-          <name>XLINK</name>
-          <file> 5 2 0 11</file>
+          <name>BILINK</name>
+          <file> 8 2</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\Debug\Obj\&#x6e29;&#x6e7F;&#x5eA6;&#x6D4B;&#x91CF;.pbd</name>
+      <name>$PROJ_DIR$\Untitled1.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
       <inputs>
         <tool>
-          <name>BILINK</name>
-          <file> 14 3</file>
+          <name>BICOMP</name>
+          <file> 13 1 10 15 5 4 6 11</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 13 1 10 15 5 4 6 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\&#x6D4B;&#x8BD5;&#x4ee3;&#x7801;.d51</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 14 9 17 3</file>
         </tool>
       </inputs>
     </file>
@@ -45,44 +71,21 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 14</file>
+          <file> 8</file>
         </tool>
         <tool>
           <name>ICC8051</name>
-          <file> 2</file>
+          <file> 9</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 10</file>
+          <file> 13</file>
         </tool>
         <tool>
           <name>ICC8051</name>
-          <file> 10</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\&#x6D4B;&#x91CF;&#x6e29;&#x6e7F;&#x5eA6;.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 3</file>
-        </tool>
-        <tool>
-          <name>ICC8051</name>
-          <file> 0</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 10 6 9 13 8</file>
-        </tool>
-        <tool>
-          <name>ICC8051</name>
-          <file> 10 6 9 13 8</file>
+          <file> 13</file>
         </tool>
       </inputs>
     </file>
@@ -91,7 +94,7 @@
       <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 1</file>
+          <file> 12</file>
         </tool>
       </outputs>
     </file>
